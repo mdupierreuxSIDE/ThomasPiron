@@ -1,0 +1,81 @@
+{
+  "documentation": "lot",
+  "fields": [
+    {
+      "name": "lotDesc",
+      "type": "String"
+    },
+    {
+      "name" : "cptEpl",
+      "type" : "String"
+    },
+    {
+      "name": "jardin",
+      "type": "String"
+    },
+    {
+      "name": "balcon",
+      "type": "String"
+    },
+    {
+      "name": "chambres",
+      "type": "String"
+    },
+    {
+      "name": "facadesNbr",
+      "type": "String"
+    },
+    {
+      "name": "orientation",
+      "type": "String"
+    },
+    {
+      "name": "statutLot",
+      "type": "String"
+    },
+    {
+      "name": "surfTer",
+      "type": "String"
+    },
+    {
+      "name": "surfHab",
+      "type": "String"
+    },
+    {
+      "name": "codeEtage",
+      "type": "String"
+    },
+    {
+      "name": "libelleFR",
+      "type": "String"
+    },
+    {
+      "name": "enseCode",
+      "type": "String"
+    },
+    {
+      "name": "sociCode",
+      "type": "String"
+    },
+    {
+      "name": "pebClasseEnergetique",
+      "type": "String"
+    },
+    {
+      "name": "nbMedias",
+      "type": "Integer"
+    },
+    {
+      "name": "nbPlansImpl",
+      "type": "Integer"
+    }
+  ],
+
+  "constraints": [
+    {
+      "name": "uq_cptepl",
+      "definition": "UNIQUE (cptEpl) ON CONFLICT REPLACE"
+    }
+  ]
+
+}

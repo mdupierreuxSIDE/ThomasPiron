@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/drawer_background.png",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/drawable-nodpi/drawer_background.png"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/drawer_texte_tp.png",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/drawable-nodpi/drawer_texte_tp.png"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/drawer_logo_tp.png",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/drawable-nodpi/drawer_logo_tp.png"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/drawer_background_tp.png",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/drawable-nodpi/drawer_background_tp.png"
+    }
+]

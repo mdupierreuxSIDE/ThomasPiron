@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-7.8.0_1bb8af2994bfc4af6ed573500d255dcac6bde822.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_0b214a739d25e632ced8014becc2840bfd839440.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-7.8.0_f5423f96018ea471f398287d4270ea2b1fddb523.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_a9edb764b77dcb60f6a5223262e190a6e58c347a.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0_e07337c73ec1e5ae41bdc85bd11e7b0c9562159b.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/de.psdev.licensesdialog/licensesdialog/1.7.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d917cad6e368bb97596899b29327a67283473c17">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/de.psdev.licensesdialog-licensesdialog-1.7.0_e30c5198520fc75658c90323cc654333450bf2d8.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.0/a7537446a030da8eb0da4c71424d16c2589f6c4a/glide-3.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/glide-3.6.0_b5b7f1592482602be0b911124d1f7bdcbf811c14.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.4/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="467417b1695583fbaee8de0e5f4202b6a2b578e1">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-core-2.3.4_c6cd69588dd4b3a8bc8b1763fdb618520c3fe099.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_3a09b145234db8063beffa90ac851fec8d3c548f.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.5/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e65060ef2ec6ec98365250d2119d7968626fd3f">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/io.fabric.sdk.android-fabric-1.3.5_981d342ce5381858014ca604bc6b2d5385d3dbac.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-7.8.0_d58694748ab60b7e4204f4b6185cfabf43f076b4.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-7.8.0_4d4850f5a42bda9e0e48fef9112212be37bd8ef7.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.1.1_59d6ca59a606bfb73dc71c471dd9ee9f4e8688f5.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-7.8.0_f65bb79ede85296084c98002acf6954729a0118b.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-7.8.0_aacfaf621c077ee1c9492cb4ed2fab31ec74f6d0.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_d3fe89b71e746a6fd0a2aadf18202283791ae46f.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-7.8.0_9f8f10c8ee7cc9f4df5c390570b979a1b810bd82.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/incremental-classes/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bcfa2082cc427abe2a8062f67f4b8c748bc9c476">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/classes_c6684b84d0462a1659512929fccc721f62d1aaef.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1f9a35942e372699c02d662a5bb1b98a12ee915b">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/instant-run_bcbbb7d11a96b166d86dfd822d186361619f055e.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appstate-7.8.0_4418ad0e10128e7901ee42f5aaf13f782df07a22.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0_87a1418627b5f807ad9462d9c2092b5ddf4610b1.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2b1fb39b3c4feeb031b00744fbbe464e3d31a88d">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-2.5.1_42b1ffa5efa94c7551f3945e6b73bcdeb4af3fa2.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-7.8.0_ca1bb2c1e33c99c13d4ec7cd5b0c3e40f6926c19.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.android.support/palette-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a978650837318cf056bf3383ff02fe7a3b891f20">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-23.1.1_643a98123eab465b09950fdb2ab99507c4b28626.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-7.8.0_47ee8c627343f726add3a5fe964239c9dc2a1984.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_94f4e291be1fef846511661b4d98d3fe4bdad934.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_2df3af3de5811629a77a44656b15ace358e84e2a.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.changeloglib/changelog/2.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e84284d8fe8664063d2a228318bdddf157cc4e78">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.github.gabrielemariotti.changeloglib-changelog-2.0.0_4d549eb75387ac3d1348310a6a4ebcf6f5c7a849.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.android.support-mediarouter-v7-22.2.0_3de82fb6494d4c8a22a590e5cedd39eca98fb017.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-7.8.0_573eaeb1b27e58d18f93af45af6cac89fdeb24ef.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-7.8.0_f3c616443b24430f9f8d03dc8546b64df115d4d5.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b7a78990c10481f43cb4909f535ef4f11e60f1ab">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-beta-1.1.3_84a185bf4ef20d5b6014a3e78dbb8f20c22a5fd3.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-7.8.0_af5c57d74af374b67e6469777b5b2f4136e10d52.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_b0cef8ec0d688da0c081de28e5137128dc7b21b7.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_1aab3296e5509fe339d0c509f068a0e372153b27.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.bignerdranch.android/expandablerecyclerview/2.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9b40512dca7cda231cd3f8cd7d0ec144140379a4">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.bignerdranch.android-expandablerecyclerview-2.0.3_690072468f0192766b137a48c09d5c0b23b3a0c3.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-7.8.0_4763ad25e0a68e2c6547bd93d47b8a024bacd56b.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/gson-2.3.1_01b6c9387e9fe4af9d156185527d516a484c7787.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-7.8.0_f19c2553e71880ef48e1c9d79bdc8043b5736744.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-7.8.0_fa428a6ec013592eed0621b5171fff2ea1ab1d5f.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-7.8.0_180fd8b89a569ce324426f180b5de6e9bb47bfce.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-7.8.0_467e3f727917b903d116fa10268622fb8a9a32f1.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-7.8.0_accb9ad056e98c02b502938f1b31f3f4db35a528.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/picasso-2.4.0_732e43112c14cd5382ae0b3d0113a60332774a59.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="441ace5a20e7fcf94f30b4394d882ed2f79237c3">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-answers-1.3.1_d21c7779ce44fddc7a3c20b723024027aa4ea5b0.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-7.8.0_85af8fc983c358dbaa552da78036e71455940db1.jar" />
+    </item>
+    <item
+        jar="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-7.8.0_ca3039291221e009f8402cfebaeb0312637913f3.jar" />
+    </item>
+
+</items>

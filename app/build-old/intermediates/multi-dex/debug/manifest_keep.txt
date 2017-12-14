@@ -1,0 +1,33 @@
+-keep class com.android.tools.fd.runtime.BootstrapApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class eu.side.thomaspiron.android.activities.MainActivity { <init>(); }
+-keep class eu.side.thomaspiron.android.activities.TabsActivity { <init>(); }
+-keep class eu.side.thomaspiron.android.activities.EnsembleDetailActivity { <init>(); }
+-keep class eu.side.thomaspiron.android.provider.TPProvider { <init>(); }
+-keep class eu.side.thomaspiron.android.activities.UnitListActivity { <init>(); }
+-keep class eu.side.thomaspiron.android.activities.InspirationActivity { <init>(); }
+-keep class eu.side.thomaspiron.android.services.ApiCallService { <init>(); }
+-keep class eu.side.thomaspiron.android.services.SyncLotsService { <init>(); }
+-keep class eu.side.thomaspiron.android.activities.MediaGridActivity { <init>(); }
+-keep class eu.side.thomaspiron.android.activities.MediaDetailActivity { <init>(); }
+-keep class eu.side.thomaspiron.android.activities.ZeGroupActivity { <init>(); }
+-keep class eu.side.thomaspiron.android.activities.SettingsActivity { <init>(); }
+-keep class eu.side.thomaspiron.android.activities.MapsActivity { <init>(); }
+-keep class com.google.android.gms.gcm.GcmReceiver { <init>(); }
+-keep class eu.side.thomaspiron.android.gcm.services.TPGcmListenerService { <init>(); }
+-keep class eu.side.thomaspiron.android.gcm.services.RegistrationIntentService { <init>(); }
+-keep class eu.side.thomaspiron.android.gcm.services.MyInstanceIDListenerService { <init>(); }
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

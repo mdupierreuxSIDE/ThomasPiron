@@ -1,0 +1,49 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+
+    <dimen name="elevation_low">9dp</dimen>
+    <dimen name="elevation_high">12dp</dimen>
+    <dimen name="status_bar_height">25dp</dimen>
+    <dimen name="fab_compat_margin">0dp</dimen>
+
+    <dimen name="detail_backdrop_height">256dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_item_avatar_size">40dp</dimen>
+
+    <dimen name="text_size_header_large">36sp</dimen>
+    <dimen name="text_size_header">24sp</dimen>
+    <dimen name="text_size_title">16sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+
+    <!-- Animation duration spinner -->
+    <dimen name="list_item_animation_duration_textSize">18sp</dimen>
+    <dimen name="list_item_animation_duration_layout_margin">10dp</dimen>
+    <dimen name="list_item_animation_duration_padding">5dp</dimen>
+
+    <dimen name="list_item_horizontal_height">96dp</dimen>
+    <dimen name="list_item_parent_horizontal_width">160dp</dimen>
+    <dimen name="list_item_parent_textSize">24sp</dimen>
+    <dimen name="list_item_parent_arrow_size">20dp</dimen>
+    <dimen name="list_item_child_vertical_paddingLeft">72dp</dimen>
+    <dimen name="list_item_parent_vertical_height">96dp</dimen>
+    <dimen name="list_item_parent_vertical_number_textView_marginLeft">16dp</dimen>
+    <dimen name="list_item_parent_vertical_parent_textView_marginLeft">42dp</dimen>
+    <dimen name="list_item_child_background_corner_radius">4dp</dimen>
+    <dimen name="list_item_parent_background_corner_radius">2dp</dimen>
+
+    <!--nice spinner-->
+    <dimen name="three_grid_unit">16dp</dimen>
+    <dimen name="one_and_a_half_grid_unit">12dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+</resources>

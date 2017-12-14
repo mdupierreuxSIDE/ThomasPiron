@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.side.thomaspiron.android"
+    android:versionCode="6"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <permission
+        android:name="eu.side.thomaspiron.android.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.gcm.permission.C2D_MESSAGE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        name="eu.side.thomaspiron.android.ThomasPironApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="eu.side.thomaspiron.android.activities.MainActivity"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="eu.side.thomaspiron.android.activities.TabsActivity"
+            android:label="@string/title_activity_tabs_acivity" >
+        </activity>
+        <activity
+            android:name="eu.side.thomaspiron.android.activities.EnsembleDetailActivity"
+            android:label="@string/title_activity_ensemble_detail" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
+
+        <provider
+            android:name="eu.side.thomaspiron.android.provider.TPProvider"
+            android:authorities="eu.side.thomaspiron.android.provider"
+            android:exported="false" />
+
+        <activity
+            android:name="eu.side.thomaspiron.android.activities.UnitListActivity"
+            android:label="@string/title_activity_unit_list" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDC9kqBJvRfs4tX-269uk0kPHAJKHIrkik" />
+
+        <activity
+            android:name="eu.side.thomaspiron.android.activities.InspirationActivity"
+            android:label="@string/title_activity_inspiration" >
+        </activity>
+
+        <service android:name="eu.side.thomaspiron.android.services.ApiCallService" />
+        <service android:name="eu.side.thomaspiron.android.services.SyncLotsService" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="c5b5a778e7363136f411b59ecda8c8d0ad1a0550" />
+
+        <activity
+            android:name="eu.side.thomaspiron.android.activities.MediaGridActivity"
+            android:label="@string/title_activity_media_grid" >
+        </activity>
+        <activity
+            android:name="eu.side.thomaspiron.android.activities.MediaDetailActivity"
+            android:label="@string/title_activity_media_detail" >
+        </activity>
+        <activity
+            android:name="eu.side.thomaspiron.android.activities.ZeGroupActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="eu.side.thomaspiron.android.activities.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="eu.side.thomaspiron.android.activities.MapsActivity"
+            android:label="@string/title_activity_maps" >
+        </activity>
+//GCM
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="eu.side.thomaspiron.android" />
+            </intent-filter>
+        </receiver>
+        <!-- [START gcm_listener] -->
+        <service
+            android:name="eu.side.thomaspiron.android.gcm.services.TPGcmListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <!-- [END gcm_listener] -->
+        <service
+            android:name="eu.side.thomaspiron.android.gcm.services.RegistrationIntentService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="eu.side.thomaspiron.android.gcm.services.MyInstanceIDListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+
+        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"
+            android:authorities="eu.side.thomaspiron.android.google_measurement_service"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

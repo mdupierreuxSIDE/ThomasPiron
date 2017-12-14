@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="eu.side.thomaspiron.android.activities.MapsActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:visible="false"/>
+    <item android:id="@+id/search"
+        android:title="Province"
+        android:icon="@drawable/ic_filter_list_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom">
+        <menu>
+            <!--<group android:checkableBehavior="all">-->
+            <item android:id="@+id/filter150km"
+                android:title="150 km"/>
+            <item android:id="@+id/filter100km"
+                android:title="100 km"/>
+            <item android:id="@+id/filter75km"
+                android:title="75 km"/>
+            <item android:id="@+id/filter50km"
+                android:title="50 km"/>
+            <item android:id="@+id/filter25km"
+                android:title="25 km"/>
+            <item android:id="@+id/filter10km"
+                android:title="10 km"/>
+            <item android:id="@+id/filter5km"
+                android:title="5 km"/>
+            <!--</group>-->
+        </menu>
+    </item>
+</menu>

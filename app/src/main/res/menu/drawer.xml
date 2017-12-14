@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 Antonio Leiva
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~       http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/drawer_group_head">
+        <item
+            android:id="@+id/drawer_home2"
+            android:checked="true"
+            android:title="@string/home"/>
+
+        <item
+            android:id="@+id/drawer_home"
+            android:checked="true"
+            android:title="@string/houses_to_sell"/>
+        <item
+            android:id="@+id/drawer_apparts"
+            android:checked="true"
+            android:title="@string/apparts_to_sell"/>
+        <item
+            android:id="@+id/drawer_inspiration"
+            android:checked="true"
+            android:title="@string/inspiration"/>
+
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/drawer_contact"
+                    android:checked="false"
+                    android:title="@string/drawer_contact"/>
+
+                <!--<item
+                    android:id="@+id/drawer_point_contact_appart"
+                    android:checked="false"
+                    android:visible="false"
+                    android:title="@string/title_meet_us"/>-->
+                <item
+                    android:id="@+id/drawer_point_contact"
+                    android:checked="false"
+                    android:title="@string/title_meet_us"/>
+            </group>
+
+        <group android:id="@+id/drawer_subgroup"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/drawer_news"
+                android:checked="false"
+                android:title="@string/drawer_string_news"/>
+            <item
+                android:id="@+id/drawer_group"
+                android:checked="false"
+                android:title="@string/the_group"/>
+            <item android:id="@+id/drawer_follow_us"
+                android:checked="false"
+                android:title="@string/string_drawer_follow_us"/>
+        </group>
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/drawer_my_pref"
+                android:checked="false"
+                android:title="Mes préférences"/>
+        </group>
+    </group>
+</menu>

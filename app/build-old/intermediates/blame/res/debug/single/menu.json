@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/menu/menu_fragment_ensembles.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/menu/menu_fragment_ensembles.xml"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/menu/menu_settings.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/menu/menu_settings.xml"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/menu/menu_inspiration.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/menu/menu_inspiration.xml"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/menu/menu_tabs_acivity.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/menu/menu_tabs_acivity.xml"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/menu/drawer.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/menu/drawer.xml"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/menu/menu_media_detail.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/menu/menu_media_detail.xml"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/menu/menu_maps.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/menu/menu_maps.xml"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/menu/menu_media_grid.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/menu/menu_media_grid.xml"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/menu/menu_ze_group.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/menu/menu_ze_group.xml"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/menu/menu_unit_list.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/menu/menu_unit_list.xml"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/menu/menu_tabs.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/menu/menu_tabs.xml"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/menu/menu_ensemble_detail.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/menu/menu_ensemble_detail.xml"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/menu/menu_main.xml"
+    }
+]

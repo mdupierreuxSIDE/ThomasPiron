@@ -1,0 +1,201 @@
+{
+  "documentation": "ensemble",
+  "fields": [
+    {
+      "name": "SociCode",
+      "type": "String"
+    },
+    {
+      "name" : "CptEpl",
+      "type" : "String"
+    },
+    {
+      "name": "DiviCode",
+      "type": "String"
+    },
+    {
+      "name": "EnseCode",
+      "type": "String"
+    },
+    {
+      "name": "Adresse",
+      "type": "String"
+    },
+    {
+      "name": "PostLoc",
+      "type": "String"
+    },
+    {
+      "name": "PostCode",
+      "type": "String"
+    },
+    {
+      "name": "EnseDesc",
+      "type": "String"
+    },
+    {
+      "name": "LibCommercialFr",
+      "type": "String"
+    },
+    {
+      "name": "LibCommercialEn",
+      "type": "String"
+    },
+    {
+      "name": "Latitude",
+      "type": "Double"
+    },
+    {
+      "name": "Longitude",
+      "type": "Double"
+    },
+    {
+      "name": "DescriptionDistanceFr",
+      "type": "String"
+    },
+    {
+      "name": "DescriptionDistanceEn",
+      "type": "String"
+    },
+    {
+      "name": "TotUnit",
+      "type": "Integer"
+    },
+    {
+      "name": "TerrainMin",
+      "type": "String"
+    },
+    {
+      "name": "TerrainMax",
+      "type": "String"
+    },
+    {
+      "name": "TerrainsPP",
+      "type": "Integer"
+    },
+    {
+      "name": "TerrainsPC",
+      "type": "Integer"
+    },
+    {
+      "name": "TerrainsEC",
+      "type": "Integer"
+    },
+    {
+      "name": "MaisonsEC",
+      "type": "Integer"
+    },
+    {
+      "name": "MaisonsC",
+      "type": "Integer"
+    },
+    {
+      "name": "SurfMin",
+      "type": "String"
+    },
+    {
+      "name": "SurfMax",
+      "type": "String"
+    },
+    {
+      "name": "NbStudios",
+      "type": "Integer"
+    },
+    {
+      "name": "NbApparts",
+      "type": "Integer"
+    },
+    {
+      "name": "NbPenthouses",
+      "type": "Integer"
+    },
+    {
+      "name": "NbDuplex",
+      "type": "Integer"
+    },
+    {
+      "name": "NbCommerces",
+      "type": "Integer"
+    },
+    {
+      "name": "NbBureaux",
+      "type": "Integer"
+    },
+    {
+      "name": "NbTerrainsDispo",
+      "type": "Integer"
+    },
+    {
+      "name": "Maison",
+      "type": "Boolean"
+    },
+    {
+      "name": "Appart",
+      "type": "Boolean"
+    },
+    {
+      "name": "Terrain",
+      "type": "Boolean"
+    },
+    {
+      "name": "Province",
+      "type": "String"
+    },
+    {
+      "name": "idPointContact",
+      "type": "Integer"
+    },
+    {
+      "name": "nbMedias",
+      "type": "Integer"
+    },
+    {
+      "name": "nbPlansImpl",
+      "type": "Integer"
+    },
+    {
+      "name": "dtDebNouveau",
+      "type": "Date"
+    },
+    {
+      "name": "dtDebRemise",
+      "type": "Date"
+    },
+    {
+      "name": "dtFinNouveau",
+      "type": "Date"
+    },
+    {
+      "name": "dtFinPorteOuverte",
+      "type": "Date"
+    },
+    {
+      "name": "dtFinRemise",
+      "type": "Date"
+    },
+    {
+      "name": "infoPorteOuverte",
+      "type": "String"
+    },
+    {
+      "name": "libelleRemise",
+      "type": "String"
+    },
+    {
+      "name": "nbTriplex",
+      "type": "Integer"
+    },
+    {
+      "name": "nbQuadriplex",
+      "type": "Integer"
+    }
+  ],
+
+  "constraints": [
+    {
+      "name": "uq_soci_divi_ensecode",
+      "definition": "UNIQUE (SociCode, DiviCode,EnseCode) ON CONFLICT REPLACE"
+    }
+  ]
+
+}

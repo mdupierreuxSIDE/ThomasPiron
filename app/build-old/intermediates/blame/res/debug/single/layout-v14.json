@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/layout-v14/changelogrow_layout.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.changeloglib/changelog/2.0.0/res/layout-v14/changelogrow_layout.xml"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/layout-v14/changelogrowheader_material_layout.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.changeloglib/changelog/2.0.0/res/layout-v14/changelogrowheader_material_layout.xml"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/layout-v14/changelogrow_material_layout.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.changeloglib/changelog/2.0.0/res/layout-v14/changelogrow_material_layout.xml"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/layout-v14/changelogrowheader_layout.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.changeloglib/changelog/2.0.0/res/layout-v14/changelogrowheader_layout.xml"
+    }
+]

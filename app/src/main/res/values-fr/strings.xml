@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">Thomas &amp; Piron</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie. Fusce quis mauris a enim sollicitudin ultrices non eget velit. Aliquam eu pulvinar enim. Praesent libero nisl, ultricies vel maximus eu, maximus et nisi. Phasellus pharetra nec ligula vitae mollis. Quisque porttitor ornare magna, quis dignissim libero aliquam id. Donec sollicitudin ultrices ante, a semper erat tristique in. Vivamus sodales in ligula at sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla tempus bibendum nibh, ac tincidunt quam convallis non. Proin dolor nunc, egestas et tortor consequat, dignissim lacinia odio. Ut ut aliquet erat.  Ut non scelerisque elit. Morbi dolor neque, iaculis eu justo rutrum, aliquet dictum mauris. Phasellus quis massa ut ligula feugiat congue a et dolor. Etiam a dui a sapien ornare accumsan ac ut lorem. Suspendisse vehicula lorem dapibus nibh rhoncus ultricies. Proin sem nulla, elementum quis pharetra quis, commodo vitae nisi. Donec urna orci, posuere et iaculis sit amet, fringilla quis sapien. Pellentesque nec posuere felis. Praesent malesuada tellus nisi, non dictum justo interdum eget. Quisque mollis euismod libero, non aliquam lorem interdum vitae. Aliquam vehicula efficitur purus eget rutrum. Sed pulvinar fermentum risus ac viverra. Cras laoreet ligula quam, ac lacinia nisl elementum in. Aenean velit arcu, euismod a venenatis non, pulvinar pulvinar massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie. Fusce quis mauris a enim sollicitudin ultrices non eget velit. Aliquam eu pulvinar enim. Praesent libero nisl, ultricies vel maximus eu, maximus et nisi. Phasellus pharetra nec ligula vitae mollis. Quisque porttitor ornare magna, quis dignissim libero aliquam id. Donec sollicitudin ultrices ante, a semper erat tristique in. Vivamus sodales in ligula at sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla tempus bibendum nibh, ac tincidunt quam convallis non. Proin dolor nunc, egestas et tortor consequat, dignissim lacinia odio. Ut ut aliquet erat.  Ut non scelerisque elit. Morbi dolor neque, iaculis eu justo rutrum, aliquet dictum mauris. Phasellus quis massa ut ligula feugiat congue a et dolor. Etiam a dui a sapien ornare accumsan ac ut lorem. Suspendisse vehicula lorem dapibus nibh rhoncus ultricies. Proin sem nulla, elementum quis pharetra quis, commodo vitae nisi. Donec urna orci, posuere et iaculis sit amet, fringilla quis sapien. Pellentesque nec posuere felis. Praesent malesuada tellus nisi, non dictum justo interdum eget. Quisque mollis euismod libero, non aliquam lorem interdum vitae. Aliquam vehicula efficitur purus eget rutrum. Sed pulvinar fermentum risus ac viverra. Cras laoreet ligula quam, ac lacinia nisl elementum in. Aenean velit arcu, euismod a venenatis non, pulvinar pulvinar massa.</string>
+    <string name="home">Accueil</string>
+    <string name="favourite">Favori</string>
+    <string name="downloaded">Téléchargé</string>
+    <string name="more">More</string>
+    <string name="settings">Paramètres</string>
+    <string name="title_activity_tabs_acivity">TabsAcivity</string>
+    <string name="title_activity_tabs">TabsActivity</string>
+    <string name="tabs">TabsActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="houses">Maisons</string>
+    <string name="houses_to_sell">Maisons et terrains à vendre</string>
+    <string name="fields_to_sell">Terrains à vendre</string>
+    <string name="inspiration">Inspiration</string>
+    <string name="apparts">Appartements</string>
+    <string name="apparts_to_sell">Appartements à vendre</string>
+    <string name="invest">Investisseurs</string>
+    <string name="title_apart">Appartements</string>
+    <string name="title_land">Terrains</string>
+    <string name="title_house">Maisons</string>
+    <string name="project_name_text">NOM DU PROJET:</string>
+    <string name="drawer_contact">Nous contacter</string>
+    <string name="title_inspiration">Inspiration</string>
+    <string name="download_plan">TELECHARGER</string>
+    <string name="sahre_ap">share</string>
+    <string name="show_units_string">LES BIENS</string>
+    <string name="no_data_available">Chargement</string>
+    <string name="no_data_available_lots">Pas de lots correspondant</string>
+    <string name="show_images_string">IMAGES</string>
+    <string name="the_group">Le groupe</string>
+    <string name="action_sort_string">Tri</string>
+    <string name="string_error_invalid_mail">Veuillez entrer une adresse mail correcte</string>
+    <string name="string_error_invalid_name">Veuillez préciser votre nom</string>
+    <string name="string_error_invalid_gsm">Veuillez préciser votre n° de GSM</string>
+    <string name="string_error_no_gms">Carte indisponible sans les Google Play Services</string>
+    <string name="string_tel_lib">TELEPHONER :</string>
+    <string name="action_about">A propos</string>
+
+
+    <plurals name="land_pp">
+        <item quantity="one">%1$s terrain pour projet personnalisé</item>
+        <item quantity="other">%1$s terrains pour projet personnalisé</item>
+    </plurals>
+
+    <plurals name="land_pc">
+        <item quantity="one">%1$s terrain avec projet de construction</item>
+        <item quantity="other">%1$s terrains avec projet de construction</item>
+    </plurals>
+
+    <plurals name="house_cc">
+        <item quantity="one">%1$s maison en construction</item>
+        <item quantity="other">%1$s maisons en construction</item>
+    </plurals>
+
+    <plurals name="house_c">
+        <item quantity="one">%1$s maison construite</item>
+        <item quantity="other">%1$s maisons construites</item>
+    </plurals>
+
+
+    <plurals name="studios">
+        <item quantity="one">%1$s studio</item>
+        <item quantity="other">%1$s studios</item>
+    </plurals>
+    <plurals name="appart">
+        <item quantity="one">%1$s appartement</item>
+        <item quantity="other">%1$s appartements</item>
+    </plurals>
+    <plurals name="penthouse">
+        <item quantity="one">%1$s penthouse</item>
+        <item quantity="other">%1$s penthouses</item>
+    </plurals>
+    <plurals name="duplex">
+        <item quantity="one">%1$s duplex</item>
+        <item quantity="other">%1$s duplex</item>
+    </plurals>
+    <plurals name="commerce">
+        <item quantity="one">%1$s commerce</item>
+        <item quantity="other">%1$s commerces</item>
+    </plurals>
+    <plurals name="bureau">
+        <item quantity="one">%1$s bureau</item>
+        <item quantity="other">%1$s bureaux</item>
+    </plurals>
+
+
+    <plurals name="terrain">
+        <item quantity="one">%1$s terrain</item>
+        <item quantity="other">%1$s terrains</item>
+    </plurals>
+    <plurals name="triplex">
+        <item quantity="one">%1$s triplex</item>
+        <item quantity="other">%1$s triplex</item>
+    </plurals>
+
+    <plurals name="quadriplex">
+        <item quantity="one">%1$s quadriplex</item>
+        <item quantity="other">%1$s quadriplex</item>
+    </plurals>
+
+    <string name="pref_developed_by_title">Développé par</string>
+    <string name="licenses_pref">Licences Open Source</string>
+    <string name="current_version_pref">Version actuelle</string>
+    <string name="error_bad_network">Erreur, vérifiez votre connexion</string>
+    <string name="strint_contact_ensemble">Contact</string>
+    <string name="string_contact_ensemble">Contact</string>
+    <string name="action_refresh">Rafraichir</string>
+    <string name="string_drawer_follow_us">Suivez-nous</string>
+    <string name="drawer_string_news">Evénements</string>
+    <string name="string_drawer_point_contact">Maisons expo</string>
+    <string name="string_drawer_point_contact_apart">Appartements témoin</string>
+    <string name="edit_loc">Localité</string>
+    <string name="string_menu_pref">Paramètres</string>
+    <string name="pref_bien">Vos biens préférés</string>
+    <string name="pref_province_summary">Choisissez votre province</string>
+    <string name="title_home">Accueil</string>
+    <string name="about_pref_title">A propos</string>
+    <string name="drawer_header_contact">Nous contacter</string>
+
+
+    <string name="ze_group_desc">Thomas &amp; Piron, c\'est\n
+                \u2022 Plus de 1700 collaborateurs\n
+                \u2022 800 maisons et 500 appartements construits chaque année en Belgique et au Grand-Duché de Luxembourg\n
+                \u2022 150 rénovations clé sur porte chaque année\n
+                \u2022 7 entités juridiques distinctes:\n
+                    \u0009\u0009\u2022 Thomas &amp; Piron HOME (maisons &amp; petits immeubles),\n
+                    \u0009\u0009\u2022 Thomas &amp; Piron BATIMENT (appartements &amp; constructions),\n
+                    \u0009\u0009\u2022 Thomas &amp; Piron RENOVATION (extensions clé sur porte),\n
+                    \u0009\u0009\u2022 Thomas &amp; Piron Groupe LUXEMBOURG,\n
+                    \u0009\u0009\u2022 Sotraba,\n
+                    \u0009\u0009\u2022 Thomas &amp; Piron FRANCE (Maisons du Nord)\n
+                    \u0009\u0009\u2022 Thomas &amp; Piron MAROC\n
+                \u2022 1 département maison à ossature bois TOMWOOD\n
+                \u2022 Une flotte de plus de 800 véhicules\n
+                \u2022 Une salle d\'exposition de plus de 2500 m²\n
+                \u2022 15 maisons témoins en Belgique et au Grand-Duché de Luxembourg\n
+                \u2022 41 ans d\'expérience dans le secteur de la construction\n
+                \u2022 Plus de 350 millions d\'euros de chiffre d\'affaires en 2015\n
+</string>
+    <string name="contact_ispiration_info">Pour découvrir les plans de cet avant-projet, laissez-nous vos coordonnées et nous vous ferons un plaisir de vous les communiquer.</string>
+    <string name="contact_ispiration_info_sent">MERCI, nous avons bien réceptionné votre demande, nous vous ferons un plaisir de vous communiquer les plans souhaités.</string>
+    <string name="location_permission_denied">Cette fonctionnalité a besoin de votre position. Vous pouvez l\'activer dans les paramètres du téléphone.</string>
+    <string name="permission_required_toast">La permission de localisation nécessaire pour cette fonctionnalité</string>
+    <string name="permission_rationale_location">La permission de localisation nécessaire pour cette fonctionnalité afin de vous localiser sur la carte</string>
+    <string name="string_action_share">Invitez des amis</string>
+    <string name="invitation_title">Invitez vos contacts</string>
+    <string name="snack_invites_sent">Invitations envoyées !</string>
+    <string name="invitation_message">Installe cette application !</string>
+    <string name="title_meet_us">Nous rencontrer</string>
+    <string name="string_drawer_my_pref">Mes préférences</string>
+    <string name="app_label"><![CDATA[Thomas & Piron]]></string>
+    <string name="policy">Politique de confidentialité</string>
+    <string name="portes_ouvertes_ce_weekend">PORTES OUVERTES ce week-end</string>
+</resources>

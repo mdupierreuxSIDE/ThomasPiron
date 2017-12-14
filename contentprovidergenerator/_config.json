@@ -1,0 +1,17 @@
+{
+  "syntaxVersion": 4,
+  "packageName": "eu.side.thomaspiron.android",
+  "authority": "eu.side.thomaspiron.android.provider",
+  "providerJavaPackage": "eu.side.thomaspiron.android.provider",
+  "providerClassName": "TPProvider",
+  "sqliteOpenHelperClassName": "TPSQLiteOpenHelper",
+  "sqliteOpenHelperCallbacksClassName": "TPSQLiteOpenHelperCallbacks",
+  "databaseFileName": "thomaspiron.db",
+  "databaseVersion": 3,
+  "enableForeignKeys": true,
+  "useAnnotations": true,
+  "useAnnotations": true,
+	"useSupportLibrary": true,
+	"generateBeans": true,
+	"debugLogsFieldName": "LOG_DEBUG_PROVIDER"
+}

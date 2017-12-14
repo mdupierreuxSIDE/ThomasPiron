@@ -1,0 +1,239 @@
+<resources>
+    <string name="app_name">Thomas &amp; Piron</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie. Fusce quis mauris a enim sollicitudin ultrices non eget velit. Aliquam eu pulvinar enim. Praesent libero nisl, ultricies vel maximus eu, maximus et nisi. Phasellus pharetra nec ligula vitae mollis. Quisque porttitor ornare magna, quis dignissim libero aliquam id. Donec sollicitudin ultrices ante, a semper erat tristique in. Vivamus sodales in ligula at sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla tempus bibendum nibh, ac tincidunt quam convallis non. Proin dolor nunc, egestas et tortor consequat, dignissim lacinia odio. Ut ut aliquet erat.  Ut non scelerisque elit. Morbi dolor neque, iaculis eu justo rutrum, aliquet dictum mauris. Phasellus quis massa ut ligula feugiat congue a et dolor. Etiam a dui a sapien ornare accumsan ac ut lorem. Suspendisse vehicula lorem dapibus nibh rhoncus ultricies. Proin sem nulla, elementum quis pharetra quis, commodo vitae nisi. Donec urna orci, posuere et iaculis sit amet, fringilla quis sapien. Pellentesque nec posuere felis. Praesent malesuada tellus nisi, non dictum justo interdum eget. Quisque mollis euismod libero, non aliquam lorem interdum vitae. Aliquam vehicula efficitur purus eget rutrum. Sed pulvinar fermentum risus ac viverra. Cras laoreet ligula quam, ac lacinia nisl elementum in. Aenean velit arcu, euismod a venenatis non, pulvinar pulvinar massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie. Fusce quis mauris a enim sollicitudin ultrices non eget velit. Aliquam eu pulvinar enim. Praesent libero nisl, ultricies vel maximus eu, maximus et nisi. Phasellus pharetra nec ligula vitae mollis. Quisque porttitor ornare magna, quis dignissim libero aliquam id. Donec sollicitudin ultrices ante, a semper erat tristique in. Vivamus sodales in ligula at sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla tempus bibendum nibh, ac tincidunt quam convallis non. Proin dolor nunc, egestas et tortor consequat, dignissim lacinia odio. Ut ut aliquet erat.  Ut non scelerisque elit. Morbi dolor neque, iaculis eu justo rutrum, aliquet dictum mauris. Phasellus quis massa ut ligula feugiat congue a et dolor. Etiam a dui a sapien ornare accumsan ac ut lorem. Suspendisse vehicula lorem dapibus nibh rhoncus ultricies. Proin sem nulla, elementum quis pharetra quis, commodo vitae nisi. Donec urna orci, posuere et iaculis sit amet, fringilla quis sapien. Pellentesque nec posuere felis. Praesent malesuada tellus nisi, non dictum justo interdum eget. Quisque mollis euismod libero, non aliquam lorem interdum vitae. Aliquam vehicula efficitur purus eget rutrum. Sed pulvinar fermentum risus ac viverra. Cras laoreet ligula quam, ac lacinia nisl elementum in. Aenean velit arcu, euismod a venenatis non, pulvinar pulvinar massa.</string>
+    <string name="home">Home</string>
+    <string name="favourite">Favorite</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="more">More</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_tabs_acivity">TabsAcivity</string>
+    <string name="title_activity_tabs">TabsActivity</string>
+    <string name="tabs">TabsActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="houses">Houses</string>
+    <string name="houses_to_sell">Houses and fields to sell</string>
+    <string name="fields_to_sell">Fields to sell</string>
+    <string name="inspiration">Inspiration</string>
+    <string name="apparts">Apartments</string>
+    <string name="apparts_to_sell">Apartments to sell</string>
+    <string name="invest">Investors</string>
+    <string name="title_apart">Apartments</string>
+    <string name="title_land">Lands</string>
+    <string name="title_house">Houses</string>
+
+
+    <plurals name="land_pp">
+        <item quantity="one">%1$s land for personalized project</item>
+        <item quantity="other">%1$s lands for personalized project</item>
+    </plurals>
+    <plurals name="land_pc">
+        <item quantity="one">%1$s land with building project</item>
+        <item quantity="other">%1$s lands with building project</item>
+    </plurals>
+    <plurals name="house_cc">
+        <item quantity="one">%1$s house in construction</item>
+        <item quantity="other">%1$s houses in construction</item>
+    </plurals>
+    <plurals name="house_c">
+        <item quantity="one">%1$s house</item>
+        <item quantity="other">%1$s houses</item>
+    </plurals>
+
+
+    <plurals name="studios">
+        <item quantity="one">%1$s studio</item>
+        <item quantity="other">%1$s studios</item>
+    </plurals>
+    <plurals name="appart">
+        <item quantity="one">%1$s apartment</item>
+        <item quantity="other">%1$s apartments</item>
+    </plurals>
+    <plurals name="penthouse">
+        <item quantity="one">%1$s penthouse</item>
+        <item quantity="other">%1$s penthouses</item>
+    </plurals>
+    <plurals name="duplex">
+        <item quantity="one">%1$s duplex</item>
+        <item quantity="other">%1$s duplex</item>
+    </plurals>
+    <plurals name="commerce">
+        <item quantity="one">%1$s commerce</item>
+        <item quantity="other">%1$s commerces</item>
+    </plurals>
+    <plurals name="bureau">
+        <item quantity="one">%1$s bureau</item>
+        <item quantity="other">%1$s bureaux</item>
+    </plurals>
+
+    <plurals name="triplex">
+        <item quantity="one">%1$s triplex</item>
+        <item quantity="other">%1$s triplex</item>
+    </plurals>
+
+    <plurals name="quadriplex">
+        <item quantity="one">%1$s quadriplex</item>
+        <item quantity="other">%1$s quadriplex</item>
+    </plurals>
+
+
+    <plurals name="terrain">
+        <item quantity="one">%1$s land</item>
+        <item quantity="other">%1$s lands</item>
+    </plurals>
+    <string name="title_activity_ensemble_detail" translatable="false">EnsembleDetailActivity</string>
+    <string name="project_name_text">PROJECT:</string>
+    <string name="title_activity_unit_list" translatable="false">UnitListActivity</string>
+    <string name="drawer_contact">Contact</string>
+    <string name="title_activity_inspiration" translatable="false">InspirationActivity</string>
+    <string name="title_inspiration">Inspiration</string>
+    <string name="download_plan">DOWNLOAD</string>
+    <string name="sahre_ap">share</string>
+    <string name="show_units_string">SHOW UNITS</string>
+    <string name="no_data_available">Loading...</string>
+    <string name="show_images_string">IMAGES</string>
+    <string name="the_group">The group</string>
+    <string name="action_sort_string">Sort</string>
+    <string name="string_error_invalid_mail">Veuillez entrer une adresse mail correcte</string>
+    <string name="string_error_invalid_name">Veuillez préciser votre nom</string>
+    <string name="string_error_invalid_firstname" translatable="false">Veuillez préciser votre prénom</string>
+    <string name="string_error_invalid_gsm">Veuillez préciser votre n° de GSM</string>
+    <string name="string_error_no_gms">Carte indisponible sans les Google Play Services</string>
+    <string name="string_tel_lib">CALL :</string>
+    <string name="title_activity_media_grid" translatable="false">MediaGridActivity</string>
+    <string name="title_activity_media_detail" translatable="false">MediaDetailActivity</string>
+    <string name="title_activity_ze_group" translatable="false">ZeGroupActivity</string>
+
+    <string name="group_presentation_string" translatable="false">"L’entreprise Thomas &amp; Piron existe depuis près de 40 ans… Elle n’a eu de cesse d’évoluer, dans un marché toujours plus exigeant, avec cette volonté permanente d’offrir à chacun de ses clients un service irréprochable.\n"
+                "\nChoisir Thomas &amp; Piron comme partenaire, c’est confier la réalisation de son rêve ou de son investissement à une entreprise solide et qui a fait ses preuves.\n"
+                "\nDésigner Thomas &amp; Piron comme seul et unique responsable, c’est opter pour la sécurité et savourer le bonheur de construire !\n"
+                "\nLes centaines de collaborateurs qui composent l’entreprise sont les garants d’un savoir-faire maîtrisé. Avec eux, sur le terrain, les actes sont joints à la parole…\n"
+                "\nThomas &amp; Piron crée et entretient ces atouts depuis bientôt quatre décennies !"
+    </string>
+    <string name="action_about">About</string>
+    <string name="title_activity_settings" translatable="false">SettingsActivity</string>
+    <string name="about_pref_title">About</string>
+    <string name="pref_developed_by_title">Developed by</string>
+    <string name="current_version_pref">Current version</string>
+    <string name="licenses_pref">Open Source Licences</string>
+    <string name="title_activity_maps" translatable="false">MapsActivity</string>
+    <string name="error_bad_network">Erreur, vérifiez votre connexion</string>
+    <string name="strint_contact_ensemble">Contact</string>
+    <string name="string_contact_ensemble">Contact</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="toast_google_play_services_not_found" translatable="false">Google play services introuvables</string>
+    <string name="string_drawer_follow_us">Follow us</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="title_activity_contact" translatable="false">ContactActivity</string>
+    <string name="drawer_string_news">Events</string>
+    <string name="string_drawer_point_contact">Appartements et Maisons témoin</string>
+    <string name="title_activity_maps_activity_point_contact" translatable="false">MapsActivityPointContact</string>
+    <string name="edit_loc">Loc.</string>
+    <string name="title_activity_prefs" translatable="false">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general" translatable="false">General</string>
+
+    <string name="pref_title_social_recommendations" translatable="false">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations" translatable="false">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name" translatable="false">Display name</string>
+    <string name="pref_default_display_name" translatable="false">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages" translatable="false">Add friends to messages</string>
+    <string-array name="pref_example_list_titles" translatable="false">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values" translatable="false">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync" translatable="false">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency" translatable="false">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles" translatable="false">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values" translatable="false">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings" translatable="false">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications" translatable="false">Notifications</string>
+
+    <string name="pref_title_new_message_notifications" translatable="false">New message notifications</string>
+
+    <string name="pref_title_ringtone" translatable="false">Ringtone</string>
+    <string name="pref_ringtone_silent" translatable="false">Silent</string>
+
+    <string name="pref_title_vibrate" translatable="false">Vibrate</string>
+    <string name="string_menu_pref">Paramètres</string>
+    <string name="pref_bien">Vos biens préférés</string>
+    <string name="pref_bien_summary" translatable="false">Choisissez un type de bien</string>
+    <string name="pref_province" translatable="false">Votre province préférée</string>
+    <string name="pref_province_summary">Choisissez votre province</string>
+    <string name="title_activity_home" translatable="false">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="string_drawer_point_contact_apart">Apartments</string>
+    <string name="no_data_available_lots">No data</string>
+    <string name="drawer_header_contact">Contact us</string>
+
+    <string name="ze_group_desc">Thomas &amp; Piron, c\'est\n
+                \u2022 Plus de 1500 collaborateurs\n
+                \u2022 550 maisons et 500 appartements construits chaque année en Belgique et au Grand-Duché de Luxembourg\n
+                \u2022 6 entités juridiques distinctes:\n
+        \u0009\u0009\u2022 Thomas &amp; Piron HOME (maisons &amp; petits immeubles),\n
+                   \u0009\u0009\u2022 Thomas &amp; Piron BATIMENT (appartements &amp; constructions),\n
+                   \u0009\u0009\u2022 Thomas &amp; Piron RENOVATION (extensions clé sur porte),\n
+                   \u0009\u0009\u2022 Thomas &amp; Piron Groupe LUXEMBOURG,\n
+                   \u0009\u0009\u2022 Sotraba,\n
+                   \u0009\u0009\u2022 Thomas &amp; Piron FRANCE (Castelord et Maisons du Nord)\n
+                \u2022 Une flotte de plus de 800 véhicules\n
+                \u2022 Un salle d\'exposition de plus de 2500 m²\n
+                \u2022 10 maisons témoins en Belgique et au Grand-Duché de Luxembourg\n
+                \u2022 39 ans d\'expérience dans le secteur de la construction\n
+                \u2022 C\'est aussi 286 millions d\'euros de chiffre d\'affaires et 11,3 millions d\'euros d\'investissements en 2013</string>
+    <string name="contact_ispiration_info">Pour découvrir les plans de cet avant-projet, laissez-nous vos coordonnées et nous vous ferons un plaisir de vous les communiquer.</string>
+    <string name="contact_ispiration_info_sent">MERCI, nous avons bien réceptionné votre demande, nous vous ferons un plaisir de vous communiquer les plans souhaités.</string>
+    <string name="string_action_share">Partager l\'application</string>
+    <string name="invitation_title">Invite your friends</string>
+    <string name="snack_invites_sent">Invites sent !</string>
+    <string name="invitation_message">Install this app !</string>
+    <string name="title_activity_meet_us">MeetUsActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_meet_us">Nous rencontrer</string>
+    <string name="string_drawer_my_pref">Mes préférences</string>
+    <string name="app_label"><![CDATA[Thomas & Piron]]></string>
+    <string name="title_activity_street_view">StreetViewActivity</string>
+    <string name="policy">Policy</string>
+    <string name="portes_ouvertes_ce_weekend">PORTES OUVERTES CE WEEKEND</string>
+</resources>

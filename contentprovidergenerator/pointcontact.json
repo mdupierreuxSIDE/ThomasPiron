@@ -1,0 +1,57 @@
+{
+  "documentation": "point contact",
+  "fields": [
+    {
+      "name": "idPointContact",
+      "type": "Integer"
+    },
+    {
+      "name" : "typePointContact",
+      "type" : "String"
+    },
+    {
+      "name": "titre",
+      "type": "String"
+    },
+    {
+      "name": "adresse",
+      "type": "String"
+    },
+    {
+      "name": "postLoc",
+      "type": "String"
+    },
+    {
+      "name": "postCode",
+      "type": "String"
+    },
+    {
+      "name": "tel",
+      "type": "String"
+    },
+    {
+      "name": "permanenceFr",
+      "type": "String"
+    },
+    {
+      "name": "latitude",
+      "type": "Double"
+    },
+    {
+      "name": "longitude",
+      "type": "Double"
+    },
+    {
+      "name": "nbMedias",
+      "type": "Integer"
+    }
+  ],
+
+  "constraints": [
+    {
+      "name": "uq_idpointcontact",
+      "definition": "UNIQUE (idPointContact) ON CONFLICT REPLACE"
+    }
+  ]
+
+}

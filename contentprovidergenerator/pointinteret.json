@@ -1,0 +1,33 @@
+{
+  "documentation": "point interet",
+  "fields": [
+    {
+      "name": "idInteret",
+      "type": "Integer"
+    },
+    {
+      "name" : "libelleFr",
+      "type" : "String"
+    },
+    {
+      "name": "libelleEn",
+      "type": "String"
+    },
+    {
+      "name": "idPays",
+      "type": "Integer"
+    },
+    {
+      "name": "email",
+      "type": "String"
+    }
+  ],
+
+  "constraints": [
+    {
+      "name": "uq_idinteret",
+      "definition": "UNIQUE (idInteret) ON CONFLICT REPLACE"
+    }
+  ]
+
+}

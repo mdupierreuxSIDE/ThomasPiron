@@ -1,0 +1,96 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+    maven { url "https://jitpack.io" }
+    google()
+}
+
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'tp_sign'
+            keyPassword '@dmin$IDE2015'
+            storeFile file('/Users/mdupierreux1/Documents/AndroidSIDE/TPHOME/keystore_signature_apk.jks')
+            storePassword '@dmin$IDE2015'
+        }
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "eu.side.thomaspiron.android"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 54
+        versionName "1.1.0"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.config
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "String", "ENDPOINT_ADDRESS", "\"http://vps193079.ovh.net:8080/TPApplication/api/rest/\""
+            buildConfigField "String", "GCM_ENDPOINT_ADDRESS", "\"http://vps193079.ovh.net:8080/pushserver/\""
+            buildConfigField "String", "APPUID", "\"99caded9-d484-11e5-bf4a-fa163e99fc74\""
+            lintOptions { disable 'MissingTranslation' }
+            buildConfigField "boolean", "LOG_DEBUG_PROVIDER", "false"
+        }
+        debug {
+            //applicationIdSuffix '.debug'
+            buildConfigField "String", "ENDPOINT_ADDRESS", "\"http://vps193079.ovh.net:8080/TPApplication/api/rest/\""
+            buildConfigField "String", "GCM_ENDPOINT_ADDRESS", "\"http://10.1.10.233:8080/pushserver/\""
+            buildConfigField "String", "APPUID", "\"99caded9-d484-11e5-bf4a-fa163e99fc74\""
+            buildConfigField "boolean", "LOG_DEBUG_PROVIDER", "true"
+        }
+    }
+}
+
+dependencies {
+
+    ext.supportLibVersion = '25.3.1'
+    ext.gmsLibVersion = '10.2.1'
+
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile('com.crashlytics.sdk.android:crashlytics:2.5.1@aar') {
+        transitive = true;
+    }
+    compile "com.google.android.gms:play-services:$gmsLibVersion"
+    compile "com.android.support:appcompat-v7:$supportLibVersion"
+    compile "com.android.support:design:$supportLibVersion"
+    compile "com.android.support:recyclerview-v7:$supportLibVersion"
+    compile "com.android.support:cardview-v7:$supportLibVersion"
+    compile "com.android.support:percent:$supportLibVersion"
+    compile "com.android.support:support-v4:$supportLibVersion"
+    compile "com.android.support:palette-v7:$supportLibVersion"
+    compile "com.android.support:customtabs:$supportLibVersion"
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.squareup.retrofit2:retrofit:2.2.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    compile 'com.squareup.picasso:picasso:2.4.0'
+    compile 'de.greenrobot:eventbus:2.4.0'
+    compile 'de.psdev.licensesdialog:licensesdialog:1.7.0'
+    compile 'com.github.oxoooo:touch-image-view:1.0.1'
+    compile 'com.miguelcatalan:materialsearchview:1.4.0'
+    compile 'com.android.support:multidex:1.0.1'
+}
+apply plugin: 'com.google.gms.google-services'

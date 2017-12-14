@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="eu.side.thomaspiron.android.activities.UnitListActivity">
+    <item android:id="@+id/action_sort"
+        android:title="@string/action_sort_string"
+        android:icon="@drawable/ic_sort_white_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/dispoPremier"
+                android:title="Afficher les biens disponibles"/>
+            <item android:id="@+id/venduPremier"
+                android:title="Afficher les biens vendus"/>
+            <item android:id="@+id/all"
+                android:title="Afficher tout"/>
+
+
+        </menu>
+    </item>
+</menu>

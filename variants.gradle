@@ -1,0 +1,15 @@
+ext {
+
+    basePackageName = 'eu.side.thomaspiron.android'
+    resAppColorName = 'primary'
+    resAppName = 'app_name'
+
+    debug = [
+        packageName   : "${basePackageName}.debug",
+        appName : "TP Debug",
+        appColor      : "#e43119",
+        versionName   : "0.0.1",
+        versionCode   : 1
+    ]
+
+}

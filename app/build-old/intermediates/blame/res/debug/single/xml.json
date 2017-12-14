@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/src/main/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/intermediates/res/merged/debug/xml/global_tracker.xml",
+        "source": "/Users/mdupierreux1/Documents/AndroidSIDE/ThomasPiron/app/build/generated/res/google-services/debug/xml/global_tracker.xml"
+    }
+]

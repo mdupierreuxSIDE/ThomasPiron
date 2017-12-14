@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_id": "thomaspiron-android",
+    "project_number": "1010970339642",
+    "name": "ThomasPiron-Android"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010970339642:android:63c2185f4070e27a",
+        "client_id": "android:eu.side.thomaspiron.android",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "eu.side.thomaspiron.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010970339642-17bb3o9g7lk2t8bo23h0vp679d83ud7s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eu.side.thomaspiron.android",
+            "certificate_hash": "63EAF03B062383E8D1375B2B71B83316DC23974F"
+          }
+        }
+      ],
+      "api_key": [{ "current_key": "" }],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-66593422-2"
+          }
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

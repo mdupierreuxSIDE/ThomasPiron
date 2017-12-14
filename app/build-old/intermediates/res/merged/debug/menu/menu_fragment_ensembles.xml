@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search"
+        android:title="Province"
+        android:icon="@drawable/ic_filter_list_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom">
+        <menu>
+            <!--<group android:checkableBehavior="all">-->
+            <item android:id="@+id/provAll"
+                android:title="Toutes les provinces"/>
+            <item android:id="@+id/provBrux"
+                android:title="Bruxelles-Capitale"/>
+            <item android:id="@+id/provBrabW"
+                android:title="Brabant Wallon"/>
+            <item android:id="@+id/provHainaut"
+                android:title="Hainaut"/>
+            <item android:id="@+id/provLiege"
+                android:title="Liège"/>
+            <item android:id="@+id/provLux"
+                android:title="Luxembourg"/>
+            <item android:id="@+id/provNam"
+                android:title="Namur"/>
+            <!--</group>-->
+        </menu>
+    </item>
+    <item android:id="@+id/viewType"
+        android:icon="@drawable/ic_view_list_white_24dp"
+        android:title="Liste"
+        app:showAsAction="always"/>
+</menu>

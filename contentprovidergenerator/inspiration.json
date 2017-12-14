@@ -1,0 +1,82 @@
+{
+  "documentation": "inspiration",
+  "fields": [
+    {
+      "name": "date",
+      "type": "String"
+    },
+    {
+      "name" : "numero",
+      "type" : "String"
+    },
+    {
+      "name": "numeroSimplifie",
+      "type": "String"
+    },
+    {
+      "name": "client",
+      "type": "String"
+    },
+    {
+      "name": "prix",
+      "type": "Double"
+    },
+    {
+      "name": "topographie",
+      "type": "String"
+    },
+    {
+      "name": "garage",
+      "type": "String"
+    },
+    {
+      "name": "carport",
+      "type": "String"
+    },
+    {
+      "name": "cave",
+      "type": "String"
+    },
+    {
+      "name": "pro",
+      "type": "String"
+    },
+    {
+      "name": "parement",
+      "type": "String"
+    },
+    {
+      "name": "toiture1",
+      "type": "String"
+    },
+    {
+      "name": "toiture2",
+      "type": "String"
+    },
+    {
+      "name": "chassis",
+      "type": "String"
+    },
+    {
+      "name": "invest",
+      "type": "Integer"
+    },
+    {
+      "name": "chambrerez",
+      "type": "String"
+    },
+    {
+      "name": "idAPModele",
+      "type": "Integer"
+    }
+
+  ],
+
+  "constraints": [
+    {
+      "name": "uq_numero",
+      "definition": "UNIQUE (numero) ON CONFLICT REPLACE"
+    }
+  ]
+
+}

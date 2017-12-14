@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        android:key="pref_bien"
+        android:title="@string/pref_bien"
+        android:summary="@string/pref_bien_summary"/>
+    <Preference
+        android:key="pref_province"
+        android:title="@string/pref_province"
+        android:summary="@string/pref_province_summary" />
+    <CheckBoxPreference
+        app:buttonTint="@color/primary"
+        android:key="pref_enable_news"
+        android:title="Recevoir les infos sur les portes ouvertes"
+        android:summary=""/>
+</PreferenceScreen>

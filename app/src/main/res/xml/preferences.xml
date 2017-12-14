@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="pref_side"
+        android:title="@string/pref_developed_by_title"
+        android:summary="S.I.D.E. sprl"/>
+    <Preference
+        android:key="pref_version"
+        android:title="@string/current_version_pref"
+        android:summary="" />
+    <Preference
+        android:key="pref_licenses"
+        android:title="@string/licenses_pref"
+        android:summary=""/>
+
+</PreferenceScreen>
